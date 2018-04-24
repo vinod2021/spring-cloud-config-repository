@@ -1,10 +1,6 @@
 server:
   port: 8078
   
-eureka:
-  instance:
-    instanceId: ${spring.application.name}:${random.value}  
-  
 spring:
   data:
     mongodb:
