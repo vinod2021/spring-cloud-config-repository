@@ -21,10 +21,6 @@ eureka:
 server:
   port: 8079
 
-spring:
-  application:
-    name: zuul-service
-
 # Increase the Hystrix timeout to 60s (for all)
 hystrix:
   command:
