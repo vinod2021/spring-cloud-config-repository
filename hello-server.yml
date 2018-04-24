@@ -1,5 +1,14 @@
 server:
   port: 8078
+  
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: ProfileDB
+      repositories:
+        enabled: true  
 
 eureka:
   client:
