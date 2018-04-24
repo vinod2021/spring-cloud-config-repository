@@ -1,6 +1,10 @@
 server:
   port: 8078
   
+eureka:
+  instance:
+    instanceId: ${spring.application.name}:${random.value}  
+  
 spring:
   data:
     mongodb:
@@ -18,4 +22,3 @@ eureka:
       defaultZone: http://localhost:8070/eureka/
   instance:
     hostname: localhost
-    
